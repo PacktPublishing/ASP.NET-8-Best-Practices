@@ -1,0 +1,19 @@
+﻿@page
+@model SpecificationModel
+@{
+    ViewData["Title"] = "Specification Example";
+}
+
+<partial name="Shared/Navigation" />
+
+<div class="text-center">
+    <h2>Specification Example</h2>
+</div>
+
+<p>All Western Rides</p>
+<ul>
+    @foreach (var attraction in Model.Attractions)
+    {
+        <li>@attraction.Name</li>
+    }
+</ul>

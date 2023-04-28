@@ -1,0 +1,19 @@
+﻿@page
+@model RepositoryModel
+@{
+    ViewData["Title"] = "Repository/Unit Of Work Example";
+}
+
+<partial name="Shared/Navigation" />
+
+<div class="text-center">
+    <h2>Repository/Unit Of Work Example</h2>
+</div>
+
+<p>All Attractions</p>
+<ul>
+    @foreach (var attraction in Model.Attractions)
+    {
+        <li>@attraction.Name</li>
+    }
+</ul>

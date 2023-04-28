@@ -1,0 +1,19 @@
+﻿@page
+@model ExtensionMethodModel
+@{
+    ViewData["Title"] = "Extension Methods Example";
+}
+
+<partial name="Shared/Navigation" />
+
+<div class="text-center">
+    <h2>Extension Methods Example</h2>
+</div>
+
+<p>All Locations at the Theme Park</p>
+<ul>
+    @foreach (var location in Model.Locations)
+    {
+        <li>@location.Name</li>
+    }
+</ul>
