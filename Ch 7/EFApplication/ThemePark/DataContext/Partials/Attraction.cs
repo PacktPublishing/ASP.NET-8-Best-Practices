@@ -1,4 +1,4 @@
-﻿namespace EFApplication.DataContext.Models;
+﻿namespace ThemePark.DataContext.Models;
 
 public partial class Attraction
 {

@@ -1,7 +1,7 @@
-﻿using EFApplication.DataContext.Models;
-using EFApplication.Dto;
+﻿using ThemePark.DataContext.Models;
+using ThemePark.Dto;
 
-namespace EFApplication.Extensions;
+namespace ThemePark.Extensions;
 
 public static class LocationExtensions
 {
@@ -11,7 +11,7 @@ public static class LocationExtensions
         {
             Id = location.Id,
             Name = location.Name,
-            Attractions = location.Attractions.Select(r=> r.ToDto())
+            Attractions = Enumerable.Select<Attraction, AttractionDto>(location.Attractions, r=> AttractionExtensions.ToDto(r))
         };
     }
 }

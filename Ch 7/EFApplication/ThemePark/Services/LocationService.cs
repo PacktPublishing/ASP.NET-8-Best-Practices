@@ -1,8 +1,8 @@
-﻿using EFApplication.DataContext;
-using EFApplication.DataContext.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using ThemePark.DataContext;
+using ThemePark.DataContext.Models;
 
-namespace EFApplication.Services;
+namespace ThemePark.Services;
 
 public class LocationService : ILocationService
 {
@@ -16,14 +16,14 @@ public class LocationService : ILocationService
     public async Task<List<Location>> GetLocationsAsync()
     {
         return await _context.Locations
-            .Include(t=> t.Attractions)
+            .Include<Location, ICollection<Attraction>>(t=> t.Attractions)
             .ToListAsync();
     }
     
     public async Task<Location> GetLocationAsync(int id)
     {
         return (await _context.Locations
-            .Include(t => t.Attractions)
+            .Include<Location, ICollection<Attraction>>(t => t.Attractions)
             .FirstOrDefaultAsync(e => e.Id.Equals(id), CancellationToken.None))!;
     }
 }

@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace EFApplication.Pages
+namespace ThemePark.Pages
 {
     public class PrivacyModel : PageModel
     {

@@ -1,8 +1,8 @@
-﻿using EFApplication.DataContext.Configuration;
-using EFApplication.DataContext.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using ThemePark.DataContext.Configuration;
+using ThemePark.DataContext.Models;
 
-namespace EFApplication.DataContext;
+namespace ThemePark.DataContext;
 
 public class ThemeParkDbContext: DbContext, IThemeParkDbContext
 {

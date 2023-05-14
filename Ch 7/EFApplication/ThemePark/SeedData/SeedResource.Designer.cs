@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EFApplication.SeedData {
+namespace ThemePark.SeedData {
     using System;
     
     
@@ -22,7 +22,7 @@ namespace EFApplication.SeedData {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class SeedResource {
+    public class SeedResource {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +36,10 @@ namespace EFApplication.SeedData {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("EFApplication.SeedData.SeedResource", typeof(SeedResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ThemePark.SeedData.SeedResource", typeof(SeedResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +51,7 @@ namespace EFApplication.SeedData {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace EFApplication.SeedData {
         /// <summary>
         ///   Looks up a localized string similar to [{&quot;ID&quot;:1,&quot;Name&quot;:&quot;Twirly Ride&quot;,&quot;LocationID&quot;:2},{&quot;ID&quot;:2,&quot;Name&quot;:&quot;Mine car Coaster&quot;,&quot;LocationID&quot;:5},{&quot;ID&quot;:3,&quot;Name&quot;:&quot;Haunted House&quot;,&quot;LocationID&quot;:3},{&quot;ID&quot;:4,&quot;Name&quot;:&quot;Dragon Ride&quot;,&quot;LocationID&quot;:2},{&quot;ID&quot;:5,&quot;Name&quot;:&quot;Gift Shop&quot;,&quot;LocationID&quot;:1},{&quot;ID&quot;:6,&quot;Name&quot;:&quot;Space Ride&quot;,&quot;LocationID&quot;:4},{&quot;ID&quot;:7,&quot;Name&quot;:&quot;Shootout at OK Corral\/Lazer Tag&quot;,&quot;LocationID&quot;:5}].
         /// </summary>
-        internal static string AttractionRecords {
+        public static string AttractionRecords {
             get {
                 return ResourceManager.GetString("AttractionRecords", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace EFApplication.SeedData {
         /// <summary>
         ///   Looks up a localized string similar to [{&quot;ID&quot;:1,&quot;Name&quot;:&quot;General&quot;},{&quot;ID&quot;:2,&quot;Name&quot;:&quot;Fantasy&quot;},{&quot;ID&quot;:3,&quot;Name&quot;:&quot;Horror&quot;},{&quot;ID&quot;:4,&quot;Name&quot;:&quot;Sci\/Fi&quot;},{&quot;ID&quot;:5,&quot;Name&quot;:&quot;Western&quot;}].
         /// </summary>
-        internal static string LocationRecords {
+        public static string LocationRecords {
             get {
                 return ResourceManager.GetString("LocationRecords", resourceCulture);
             }

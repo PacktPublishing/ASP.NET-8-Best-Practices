@@ -1,8 +1,8 @@
-﻿using EFApplication.DataContext;
-using EFApplication.DataContext.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using ThemePark.DataContext;
+using ThemePark.DataContext.Models;
 
-namespace EFApplication.Services;
+namespace ThemePark.Services;
 
 public class AttractionService : IAttractionService
 {
@@ -17,7 +17,7 @@ public class AttractionService : IAttractionService
     {
         return await _context.Attractions
             .AsNoTracking()
-            .Include(r=> r.Location)
+            .Include<Attraction, Location>(r=> r.Location)
             .ToListAsync();
     }
 }

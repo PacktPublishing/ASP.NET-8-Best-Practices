@@ -1,16 +1,16 @@
-﻿using EFApplication.DataContext.Models;
-using EFApplication.SeedData;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Newtonsoft.Json;
+using ThemePark.DataContext.Models;
+using ThemePark.SeedData;
 
-namespace EFApplication.DataContext.Configuration;
+namespace ThemePark.DataContext.Configuration;
 
 public class LocationConfiguration : IEntityTypeConfiguration<Location>
 {
     public void Configure(EntityTypeBuilder<Location> builder)
     {
-        builder.Property(e => e.Id).ValueGeneratedNever();
+        builder.Property<int>(e => e.Id).ValueGeneratedNever();
 
         var records = JsonConvert.DeserializeObject<Location[]>(
             SeedResource.LocationRecords);

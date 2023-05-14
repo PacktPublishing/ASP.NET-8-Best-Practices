@@ -1,6 +1,6 @@
-﻿using EFApplication.DataContext.Models;
+﻿using ThemePark.DataContext.Models;
 
-namespace EFApplication.Services;
+namespace ThemePark.Services;
 
 public interface IAttractionService
 {

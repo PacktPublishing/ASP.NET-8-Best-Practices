@@ -1,4 +1,4 @@
-﻿namespace EFApplication.Dto;
+﻿namespace ThemePark.Dto;
 
 public class AttractionDto
 {

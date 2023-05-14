@@ -1,17 +1,16 @@
-﻿using EFApplication.DataContext.Models;
-using EFApplication.SeedData;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Newtonsoft.Json;
+using ThemePark.DataContext.Models;
+using ThemePark.SeedData;
 
-namespace EFApplication.DataContext.Configuration;
+namespace ThemePark.DataContext.Configuration;
 
 public class AttractionConfiguration : IEntityTypeConfiguration<Attraction>
 {
     public void Configure(EntityTypeBuilder<Attraction> builder)
     {
-        builder
-            .HasOne(d => d.Location)
+        builder.HasOne<Location>(d => d.Location)
             .WithMany(p => p.Attractions)
             .OnDelete(DeleteBehavior.ClientSetNull);
 

@@ -1,7 +1,7 @@
-﻿using EFApplication.DataContext.Models;
-using EFApplication.Dto;
+﻿using ThemePark.DataContext.Models;
+using ThemePark.Dto;
 
-namespace EFApplication.Extensions;
+namespace ThemePark.Extensions;
 
 public static class AttractionExtensions
 {

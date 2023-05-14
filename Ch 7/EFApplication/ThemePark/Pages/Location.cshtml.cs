@@ -1,8 +1,8 @@
-﻿using EFApplication.DataContext.Models;
-using EFApplication.Services;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using ThemePark.DataContext.Models;
+using ThemePark.Services;
 
-namespace EFApplication.Pages
+namespace ThemePark.Pages
 {
     public class LocationModel : PageModel
     {

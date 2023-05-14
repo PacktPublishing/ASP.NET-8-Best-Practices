@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EFApplication.DataContext.Models;
+namespace ThemePark.DataContext.Models;
 
 public partial class Location
 {

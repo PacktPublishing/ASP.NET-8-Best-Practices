@@ -1,6 +1,6 @@
 using System.Reflection;
-using EFApplication.DataContext;
-using EFApplication.Services;
+using ThemePark.DataContext;
+using ThemePark.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

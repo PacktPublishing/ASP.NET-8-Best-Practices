@@ -1,9 +1,9 @@
-﻿using EFApplication.Dto;
-using EFApplication.Extensions;
-using EFApplication.Services;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using ThemePark.Dto;
+using ThemePark.Extensions;
+using ThemePark.Services;
 
-namespace EFApplication.Pages;
+namespace ThemePark.Pages;
 
 public class IndexModel : PageModel
 {
