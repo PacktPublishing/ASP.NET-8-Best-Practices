@@ -109,11 +109,10 @@ function sass(done) {
 
 // Global default and cleanup tasks
 exports.build = series(
-    testTask,
-//    ts_clean,
-//    js_clean,
-//    sass_clean,
-//    ts_transpile,
-//    js_bundle_min,
-//    sass
+    ts_clean,
+    js_clean,
+    sass_clean,
+    ts_transpile,
+    js_bundle_min,
+    sass
 );
