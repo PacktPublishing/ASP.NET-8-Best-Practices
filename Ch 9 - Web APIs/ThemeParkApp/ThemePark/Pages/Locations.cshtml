@@ -1,0 +1,25 @@
+﻿@page
+@model ThemePark.Pages.LocationsModel
+@{
+    ViewData["Title"] = "Locations";
+}
+
+<p><a asp-page="Index" title="Back to Attractions">&laquo; Back to Attractions</a></p>
+<h1>Locations</h1>
+<table class="table table-condensed w-25">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th class="text-center w-25">Attraction Count</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach(var location in Model.Locations)
+    {
+        <tr>
+                <td><a asp-page="Location" asp-route-id="@location.Id">@location.Name</a></td>
+            <td class="text-center">@location.Attractions.Count</td>
+        </tr>
+    }
+    </tbody>
+</table>

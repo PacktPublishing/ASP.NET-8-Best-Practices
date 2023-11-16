@@ -1,0 +1,25 @@
+﻿@page
+@model ThemePark.Pages.IndexModel
+@{
+    ViewData["Title"] = "Attractions";
+}
+
+<h1>Attractions</h1>
+<table class="table table-condensed">
+    <thead>
+    <tr>
+        <th class="w-25">Name</th>
+        <th>Location</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach(var attraction in Model.Attractions)
+    {
+        <tr>
+            <td>@attraction.Name</td>
+            <td><a asp-page="location" asp-route-id="@attraction.LocationId">@attraction.LocationName</a></td>
+        </tr>
+    }
+    </tbody>
+</table>
+<a asp-page="locations" title="Go to All Locations">All Locations</a>

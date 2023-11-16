@@ -1,0 +1,12 @@
+﻿@hostAddress = https://localhost:7218
+
+// Get all attractions
+GET {{hostAddress}}/attractions
+Content-Type: application/json
+
+###
+
+// Get all locations
+GET {{hostAddress}}/locations
+
+###
