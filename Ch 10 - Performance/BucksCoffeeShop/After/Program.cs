@@ -1,4 +1,4 @@
-using BucksCoffeeShopAfter.Middleware.Emoji;
+using BucksCoffeeShop.Infrastructure.HtmlCompress;
 using Microsoft.Net.Http.Headers;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -38,6 +38,6 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
-app.UseEmojiMiddleware();
+app.UseHtmlShrink();
 
 app.Run();
