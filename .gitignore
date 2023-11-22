@@ -19,3 +19,25 @@
 /Ch 10 - Performance/BucksCoffeeShop-After.Tests/obj/BucksCoffeeShop-After.Tests.csproj.nuget.g.targets
 /Ch 10 - Performance/BucksCoffeeShop-After.Tests/obj/project.assets.json
 /Ch 10 - Performance/BucksCoffeeShop-After.Tests/obj/project.nuget.cache
+/.vs
+/Ch 10 - Performance/BucksCoffeeShop/.vs/ProjectEvaluation
+/Ch 10 - Performance/BucksCoffeeShop/After/node_modules
+/Ch 10 - Performance/BucksCoffeeShop/Before/node_modules
+/Ch 10 - Performance/BucksCoffeeShop-After.Tests/obj/Release/net8.0
+/Ch 3 - Middleware/EmojiMiddleware/EmojiMiddleware/obj/Debug/net8.0
+/Ch 3 - Middleware/EmojiMiddleware/EmojiMiddleware/obj/Release/net8.0
+/Ch 5 - Entity Framework/EntityFrameworkPatterns/obj
+/Ch 5 - Entity Framework/ThemePark/obj/Release/net8.0
+/Ch 6 - Web UI/BucksCoffeeShop/obj
+/Ch 6 - Web UI/TaskRunner/obj/Debug/net7.0
+/Ch 6 - Web UI/TaskRunner/obj/Release/net7.0
+/Ch 7 - Testing/ThemeParkApp/ThemePark/obj
+/Ch 7 - Testing/ThemeParkApp/ThemePark.Tests/obj/Debug/net8.0
+/Ch 7 - Testing/ThemeParkApp/ThemePark.Tests/obj/Release/net8.0
+/Ch 9 - Web APIs/HttpClientExample/obj
+/Ch 9 - Web APIs/ThemeParkApp/ThemePark/obj
+/Ch 9 - Web APIs/ThemeParkApp/ThemePark.Api.Tests/obj
+/Ch 9 - Web APIs/ThemeParkApp/ThemePark.Data/obj
+/Ch 9 - Web APIs/ThemeParkApp/ThemePark.Services/obj
+/Ch 9 - Web APIs/ThemeParkApp/ThemePark.Tests/obj/Debug/net8.0
+/Ch 9 - Web APIs/ThemeParkApp/ThemePark.Tests/obj/Release/net8.0
