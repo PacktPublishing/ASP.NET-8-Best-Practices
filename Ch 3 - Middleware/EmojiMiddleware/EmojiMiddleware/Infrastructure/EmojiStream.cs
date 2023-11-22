@@ -61,6 +61,6 @@ public class EmojiStream: Stream
         }
         buffer = Encoding.UTF8.GetBytes(html);
 
-        _responseStream.Write(buffer, 0, buffer.Length);
+        _responseStream.WriteAsync(buffer, 0, buffer.Length);
     }
 }
