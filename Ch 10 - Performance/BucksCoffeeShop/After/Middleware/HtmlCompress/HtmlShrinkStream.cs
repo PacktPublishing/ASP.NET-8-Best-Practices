@@ -37,8 +37,12 @@ public class HtmlShrinkStream: Stream
     public override void Write(byte[] buffer, int offset, int count)
     {
         var html = Encoding.UTF8.GetString(buffer, offset, count);
-        var reg = new Regex(@"(?<=\s)\s+(?![^<>]*</pre>)");
-        html = reg.Replace(html, string.Empty);
+        
+        var removeSpaces = new Regex(@"(?<=\s)\s+(?![^<>]*</pre>)", RegexOptions.Multiline);
+        html = removeSpaces.Replace(html, string.Empty);
+
+        var removeCrLf = new Regex(@"(\r\n|\r|\n)", RegexOptions.Multiline);
+        html = removeCrLf.Replace(html, string.Empty);
 
         buffer = Encoding.UTF8.GetBytes(html);
 
