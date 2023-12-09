@@ -26,13 +26,13 @@ ASP.NET 8 Best Practices contains over 100 best practices used in the ASP.NET co
 
 The standards covered in the book include version control, creating software pipelines, creating structured Middleware, security practices, Entity Framework Core patterns and techniques, and automating time-consuming client-side tasks.
 
-While best practices are considered recommendations on how to write professional code, there will always be exceptions to the rule. As developers know, there are so many ways to write code to achieve the same result. Some ways are better than others. These ìbetter waysî are what I consider as best practices.
+While best practices are considered recommendations on how to write professional code, there will always be exceptions to the rule. As developers know, there are so many ways to write code to achieve the same result. Some ways are better than others. These ‚Äúbetter ways‚Äù are what I consider as best practices.
 
-While covering each topic, the chapter will provide as much detail and referral material to explain why these techniques and patterns are indeed better ways to write professional code. It doesnít mean they are written in stone. As mentioned before, there will always be exceptions to the rule.
+While covering each topic, the chapter will provide as much detail and referral material to explain why these techniques and patterns are indeed better ways to write professional code. It doesn‚Äôt mean they are written in stone. As mentioned before, there will always be exceptions to the rule.
 
-To new developers entering the ASP.NET ecosystem, it can be overwhelming to build a new ASP.NET website and see everything associated with the process. This book is meant to lessen the sense of being overwhelmed by understanding each technology ìspokeî attached to an ASP.NET website ìhubî; It explores everything involved with creating a ìsimpleî website.
+To new developers entering the ASP.NET ecosystem, it can be overwhelming to build a new ASP.NET website and see everything associated with the process. This book is meant to lessen the sense of being overwhelmed by understanding each technology ‚Äúspoke‚Äù attached to an ASP.NET website ‚Äúhub‚Äù; It explores everything involved with creating a ‚Äúsimple‚Äù website.
 
-To seasoned developers already using ASP.NET, use this book as a reference of recommendations and observations Iíve had over a 20-year career. Even the experiences with past and present colleagues are apparent in this book.
+To seasoned developers already using ASP.NET, use this book as a reference of recommendations and observations I‚Äôve had over a 20-year career. Even the experiences with past and present colleagues are apparent in this book.
 
 Code on, readers...Code on!
 
