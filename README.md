@@ -1,23 +1,9 @@
-<br/>
 <p align="center">
-  <a href="https://github.com/PacktPublishing/ASP.NET-8-Best-Practices">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
   <h3 align="center">ASP&#46;NET 8 Best Practices</h3>
 
   <p align="center">
     Code repository for the book "ASP.NET 8 Best Practices" by Jonathan R. Danylko
-    <br/>
-    <br/>
-    <a href="https://github.com/PacktPublishing/ASP.NET-8-Best-Practices"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/PacktPublishing/ASP.NET-8-Best-Practices">View Demo</a>
-    .
-    <a href="https://github.com/PacktPublishing/ASP.NET-8-Best-Practices/issues">Report Bug</a>
-    .
-    <a href="https://github.com/PacktPublishing/ASP.NET-8-Best-Practices/issues">Request Feature</a>
   </p>
 </p>
 
@@ -31,11 +17,8 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
 
-## About The Project
-
-![Screen Shot](images/screenshot.png)
+## About The Book and Repository
 
 Welcome to ASP.NET 8 Best Practices!
 
