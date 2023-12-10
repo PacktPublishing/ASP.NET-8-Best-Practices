@@ -6,7 +6,7 @@ There is always something more to do to squeeze performance out of an applicatio
 
 The chapter covers what some would call "quick wins". The chapter was a great introduction for some to dig into these techniques whether the developer was a frontend or backend developer.
 
-Buck's Coffee Shop was intentionally created with a before/after to show the optimizations throughout the chapter applied to the original site. With every optimization added, there was always two more to add to the chapter.
+Buck's Coffee Shop was intentionally created with a before/after to show the optimizations throughout the chapter applied to the original site. With every optimization added, there was always two more to mention or discuss.
 
 The checklist below gives a more thorough list of optimizations a web developer and/or designer (or <a href="https://www.danylkoweb.com/Blog/can-web-developers-put-lipstick-on-a-pig-KI" title="Go to ">devigner</a> as I call them) can implement when optimizing a website.
 
