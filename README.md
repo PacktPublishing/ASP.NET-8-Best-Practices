@@ -65,6 +65,14 @@ git clone https://github.com/PacktPublishing/ASP.NET-8-Best-Practices.git
 2. Open each chapter's folder to find solution files (*.sln)
 
 
-## Authors
+## Author
 
 * **Jonathan Danylko** - *Web Architect* - [Jonathan Danylko](https://github.com/jdanylko) - **
+
+## Caveats
+
+* I've always been a fan of "real-world" reference books and wanted this book to be written as such for .NET developers. Each chapter is broken into thirds.
+  * The first 1/3 is the overview/introduction to the topic with terms and concepts.
+  * The second 1/3 contains small, bite-sized nuggets of "best practices"
+  * The last 1/3 is a demo/example combining everything from the chapter (where applicable)
+
