@@ -21,17 +21,14 @@ body {
   margin-bottom: 60px;
 }
 
-/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand {
-    white-space: normal;
-    text-align: center;
-    word-break: break-all;
-}
-
 a {
     color: #0077cc;
+
+    &.navbar-brand {
+            white-space: normal;
+            text-align: center;
+            word-break: break-all;
+    }
 }
 
 .btn-primary {
@@ -68,5 +65,76 @@ button.accept-policy {
     bottom: 0;
     width: 100%;
     white-space: nowrap;
-    line-height: 60px;
 }
+
+
+
+.navbar-nav {
+    .navbar-brand {
+        img {
+            margin-top: 3.5rem;
+        }
+    }
+}
+#navbarNav {
+    max-height: 2.5rem;
+}
+
+.navbar-brand img {
+/*    width: 80px;
+*/}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar {
+    .navbar-nav {
+        .nav-link {
+            color: #fff;
+            font-size: 1.1em;
+            padding: 0.5em 1em;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .navbar-brand {
+        margin-right: 0;
+        padding: 0 1em;
+
+        img {
+            width: 100px;
+        }
+    }
+}
+
+.main-image {
+    height: 100vh;
+    background: url('/images/bucks-coffee-400.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-width: 640px) {
+
+    .main-image {
+        background-image: url('/images/bucks-coffee-640.jpg');
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .main-image {
+        background-image: url('/images/bucks-coffee-800.jpg');
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .main-image {
+        background-image: url('/images/bucks-coffee-1024.jpg');
+    }
+}
+
