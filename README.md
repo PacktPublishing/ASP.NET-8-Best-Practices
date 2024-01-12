@@ -1,14 +1,35 @@
-<p align="center">
+# ASP.NET 8 Best Practices
+ASP.NET 8 Best Practices, Published by Packt
 
-  <h3 align="center">ASP&#46;NET 8 Best Practices</h3>
+<a href="https://www.packtpub.com/product/aspnet-8-best-practices/9781837632121"><img src="https://static.packt-cdn.com/products/9781837632121/cover/smaller" alt="React Interview Guide" height="256px" align="right"></a>
 
-  <p align="center">
-    Code repository for the book "ASP.NET 8 Best Practices" by Jonathan R. Danylko
-  </p>
-</p>
+This is the code repository for [ASP.NET 8 Best Practices](https://www.packtpub.com/product/aspnet-8-best-practices/9781837632121), published by Packt.
 
-![Stargazers](https://img.shields.io/github/stars/PacktPublishing/ASP.NET-8-Best-Practices?style=social) ![Issues](https://img.shields.io/github/issues/PacktPublishing/ASP.NET-8-Best-Practices) 
+**Explore techniques, patterns, and practices to develop effective large-scale .NET web apps**
 
+## What is this book about?
+
+This book is for developers who have working knowledge of ASP.NET and want to advance in their careers by learning best practices followed in developer communities or corporate environments. Beginners can use this book as a springboard for integrating best practices into their learning journey, and as a reference to gain clarity on advanced ASP.NET topics at a later time.
+
+This book covers the following exciting features:
+
+* Explore the common IDE tools used in the industry
+* Identify the best approach for organizing source control, projects, and middleware
+* Uncover and address top web security threats, implementing effective strategies to protect your code
+* Optimize Entity Framework for faster query performance using best practices
+* Automate software through continuous integration/continuous deployment
+* Gain a solid understanding of the .NET Core coding fundamentals for building websites
+* Harness HtmlHelpers, TagHelpers, ViewComponents, and Blazor for component-based development
+
+If you feel this book is for you, get your [copy](https://www.amazon.com/React-Interview-Guide-Learn-interview/dp/1803241519) today!
+
+
+<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
+alt="https://www.packtpub.com/" border="5" /></a>
+
+**Following is what you need for this book:**
+As .NET 8 emerges as a long-term support (LTS) release designed to assist developers in migrating legacy applications to ASP.NET, this best practices book becomes your go-to guide for exploring the intricacies of ASP.NET and advancing your skills as a software engineer, full-stack developer, or web architect.
+  
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
@@ -67,7 +88,8 @@ git clone https://github.com/PacktPublishing/ASP.NET-8-Best-Practices.git
 
 ## Author
 
-* **Jonathan Danylko** - *Web Architect* - [Jonathan Danylko](https://github.com/jdanylko) - **
+* **Jonathan "JD" Danylko** is an award-winning, full-stack ASP.NET architect. He's used ASP.NET as his primary way to build websites since 2002 and before that, Classic ASP.
+Jonathan contributes to his blog (DanylkoWeb.com) on a weekly basis, has built a custom CMS, is a founder of Tuxboard (an open-source ASP.NET dashboard library), has been on various podcasts, and guest posted on the C# Advent Calendar for 6 years. Jonathan has worked in various industries for small, medium, and Fortune 100 companies, but currently works as an Architect at Insight Enterprise. The best way to contact Jonathan is through GitHub, LinkedIn, Twitter, email, or through the website. - [Jonathan Danylko](https://github.com/jdanylko)
 
 ## Caveats
 
