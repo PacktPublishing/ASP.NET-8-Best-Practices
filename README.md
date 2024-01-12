@@ -85,6 +85,11 @@ git clone https://github.com/PacktPublishing/ASP.NET-8-Best-Practices.git
 
 2. Open each chapter's folder to find solution files (*.sln)
 
+### Related products <Other books you may enjoy>
+* Architecting ASP.NET Core Applications  [[Packt]](https://www.packtpub.com/product/architecting-aspnet-core-applications-third-edition/9781805123385) [[Amazon]](https://www.amazon.com/Architecting-ASP-NET-Core-Applications-atypical/dp/1805123386/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
+
+* Apps and Services with .NET 8 [[Packt]](https://www.packtpub.com/product/apps-and-services-with-net-8-second-edition/9781837637133) [[Amazon]](https://www.amazon.com/Apps-Services-NET-enterprise-technologies/dp/183763713X)
+
 
 ## Author
 
